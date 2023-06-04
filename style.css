@@ -1,0 +1,75 @@
+* {
+    text-align: center;
+}
+h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-size:40px;
+    font-style: italic;
+    font-stretch: expanded; 
+}
+
+.h1 {
+background-image: url("pics/fabric_1.webp");
+align-items: center;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    align-self: center;
+}
+
+hr {
+    border:none;
+ 	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #1f1209;
+    box-shadow: 0 10px 10px -10px #333;
+}
+
+/* Nav Bar */
+
+a {
+    color: rgb(116, 115, 115);
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #c9c6c6;
+}
+
+/*end */
+
+#img1 {
+
+    transform: rotate(270deg);
+    float: left;
+    padding-left: 30em;
+    padding-top: 20em;
+    size: 60%;
+}
+
+#about {
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-rendering: optimizeSpeed;
+    font-family:'Amatic SC', cursive;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    padding-right: 25em;
+    padding-top: 5em;
+
+}
+
+.about {
+    padding: 10px;
+}
